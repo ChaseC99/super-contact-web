@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <circle id="portrait-circle" cx="31" cy="32" r="24" />
+    <clipPath id="portrait-clip">
+      <use href="#portrait-circle" />
+    </clipPath>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#f1ebdd" />
+  <use href="#portrait-circle" fill="#a4a6a2" />
+  <!-- The cape hem meets the portrait circle tangentially beneath the body. -->
+  <path d="M30 41C41 30 48 34 61 23C63 40 53.4 45.2 45.4 51.2Z" fill="#d70d25" />
+  <path d="M13 64V50C13 39 19 34 30 34C41 34 47 42 47 52V64Z" fill="#fff" clip-path="url(#portrait-clip)" />
+  <circle cx="30" cy="25" r="9" fill="#fff" />
+  <path d="M19 36C24 31 26 36 30 41C41 30 48 34 61 23C61 38 50 39 45 36C39 33 35 39 30 43C26 39 22 35 19 36Z" fill="#f72b3c" />
+</svg>
